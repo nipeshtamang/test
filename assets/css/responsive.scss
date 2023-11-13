@@ -1,0 +1,93 @@
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+  .navbar-brand{
+    img{
+      height: 80px !important;
+    }
+  }
+  .banner-slide{
+    img{
+      height: 200px !important;
+    }
+  }
+  .topbar{
+    text-align: center;
+    .topinfo{
+      li{
+        float: none !important; 
+      }
+    }
+    .topbar-social{
+      float: none !important;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .news{
+    .media{
+      display: table !important;
+      .date{
+        display: table-cell !important;
+        background: #f70503;
+        vertical-align: middle;
+        height: unset;
+      }
+      .media-body{
+        display: table-cell !important;
+        width: 100%;
+        height: unset;
+        h5{
+          max-width: 200px !important;
+        }
+      }
+    }
+  }
+  .msg-from-principle{
+    h1{
+      font-size: 25px !important;
+    }
+    img{
+      float: none;
+      margin: 0 0 20px 0 !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  #message-slider{
+    .carousel-control-next, .carousel-control-prev{
+      width: 10% !important;
+      height: 5% !important;
+      background: #000;
+    }
+    .carousel-control-prev{
+      right: 50px !important;
+      top: 2% !important;
+      left: unset;
+    }
+    .carousel-control-next{
+      top: 2% !important;
+      right: 10px !important;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+  
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+  .quick-link,.contact-info{
+    h4{
+      margin-top: 20px;
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {  }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width

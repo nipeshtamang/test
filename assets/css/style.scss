@@ -1,0 +1,295 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+$blue: #2C8ADF;
+$black: #000000;
+$white: #ffffff;
+$orange: #ffb423;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px !important;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+// @media (min-width: 1200px) {
+//   .container {
+//     max-width: 1240px;
+//   }
+// }
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background:$orange;
+  color: #fff;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+  i {
+    padding-top: 12px;
+    color: #fff;
+  }
+}
+a.read-more {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 20px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: $orange;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 2px solid $orange;
+  &:hover {
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid $orange;
+  }
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.main-menu {
+  .logo {
+    width: 200px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .navbar{
+    padding: 0;
+  }
+  .navbar-light{
+    background-color: $white;
+    border-bottom: 1px solid #ddd;
+  }
+  .navbar-nav {
+    padding: 0px;
+    li {
+      // border-right: 0.02em solid rgba(0, 0, 0, 0.4);
+      &.active {
+        a {
+          color: #000;
+        }
+      }
+    }
+    .nav-link {
+      color: #333;
+      padding: 30px 25px;
+      margin:0;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: bold;
+      &:hover {
+        background-color: #EF5927;
+        color: #fff !important;
+      }
+    }
+    .dropdown-menu{
+      padding: 0;
+      border-radius: 0 !important;
+      border: 0 !important;
+      a{
+        background-color: transparent;
+        padding: 15px 20px !important;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        border: 1px solid #ccc;
+        &:hover{
+          color: #fff;
+        }
+      }
+      &:hover{
+        background-color: #EF5927;
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Home Banner
+--------------------------------------------------------------*/
+.home-banner {
+  margin-top: 72px;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.title-header{
+  text-align: center;
+  h1{
+    font-weight: 500;
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+  }
+  p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
+.about{
+  padding: 50px 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services{
+  padding: 50px 0;
+  text-align: center;
+  background: #AFD373;
+  h1{
+    color: #000;
+  }
+  p{
+    color: $white;
+  }
+  .card{
+    border-radius: 0px;
+    border: none;
+    img{
+      border-radius: 0px;
+      height: 200px;
+    }
+    .card-body{
+      min-height: 155px;
+      padding: 14px;
+      h5{
+        font-weight: 600;
+        font-size: 18px;
+      }
+      p{
+        color: #666;
+        margin: 0px;
+        font-weight: 500;
+      }
+    }
+  }
+  .box{
+    h4{
+      font-weight: 500;
+      color: #fff;
+    }
+    p{
+      color: #fff;
+    }
+  }
+}
+/*--------------------------------------------------------------
+# Happy Clients
+--------------------------------------------------------------*/
+.clients{
+  padding: 50px 0;
+  text-align: center;
+  h1{
+    color: $black;
+  }
+  p{
+    color: $black;
+  }
+  .card{
+    border-radius: 0px;
+    border: none;
+    img{
+      border-radius: 0px;
+      height: 200px;
+    }
+    .card-body{
+      min-height: 155px;
+      padding: 14px;
+      h5{
+        font-weight: 600;
+        font-size: 18px;
+      }
+      p{
+        color: #666;
+        margin: 0px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+/*--------------------------------------------------------------
+#  Contact
+--------------------------------------------------------------*/
+.contact{
+  padding: 50px 0;
+  text-align: center;
+  background: #000;
+  h1{
+    color: $white;
+  }
+  p{
+    color: $white;
+  }
+  .address{
+    h5{
+      color: #888;
+      font-weight: 600;
+    }
+    p{
+      color: $white;
+    }
+  }
+  .copyright{
+    border-top: 1px solid #666;
+    padding-top: 20px;
+    p{
+      text-align: center !important;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

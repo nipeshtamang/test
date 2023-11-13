@@ -1,0 +1,278 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px !important;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #ffb423;
+  color: #fff;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+}
+.back-to-top i {
+  padding-top: 12px;
+  color: #fff;
+}
+
+a.read-more {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 20px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #ffb423;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 2px solid #ffb423;
+}
+a.read-more:hover {
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #ffb423;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.main-menu .logo {
+  width: 200px;
+}
+.main-menu .logo img {
+  width: 100%;
+  height: auto;
+}
+.main-menu .navbar {
+  padding: 0;
+}
+.main-menu .navbar-light {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+.main-menu .navbar-nav {
+  padding: 0px;
+}
+.main-menu .navbar-nav li.active a {
+  color: #000;
+}
+.main-menu .navbar-nav .nav-link {
+  color: #333;
+  padding: 30px 25px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+.main-menu .navbar-nav .nav-link:hover {
+  background-color: #EF5927;
+  color: #fff !important;
+}
+.main-menu .navbar-nav .dropdown-menu {
+  padding: 0;
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+.main-menu .navbar-nav .dropdown-menu a {
+  background-color: transparent;
+  padding: 15px 20px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 1px solid #ccc;
+}
+.main-menu .navbar-nav .dropdown-menu a:hover {
+  color: #fff;
+}
+.main-menu .navbar-nav .dropdown-menu:hover {
+  background-color: #EF5927;
+  color: #fff !important;
+}
+
+/*--------------------------------------------------------------
+# Home Banner
+--------------------------------------------------------------*/
+.home-banner {
+  margin-top: 72px;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.title-header {
+  text-align: center;
+}
+.title-header h1 {
+  font-weight: 500;
+  font-size: 35px;
+  color: #000;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+.title-header p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+  padding: 50px 0;
+  text-align: center;
+  background: #AFD373;
+}
+.services h1 {
+  color: #000;
+}
+.services p {
+  color: #ffffff;
+}
+.services .card {
+  border-radius: 0px;
+  border: none;
+}
+.services .card img {
+  border-radius: 0px;
+  height: 200px;
+}
+.services .card .card-body {
+  min-height: 155px;
+  padding: 14px;
+}
+.services .card .card-body h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.services .card .card-body p {
+  color: #666;
+  margin: 0px;
+  font-weight: 500;
+}
+.services .box h4 {
+  font-weight: 500;
+  color: #fff;
+}
+.services .box p {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Happy Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 50px 0;
+  text-align: center;
+}
+.clients h1 {
+  color: #000000;
+}
+.clients p {
+  color: #000000;
+}
+.clients .card {
+  border-radius: 0px;
+  border: none;
+}
+.clients .card img {
+  border-radius: 0px;
+  height: 200px;
+}
+.clients .card .card-body {
+  min-height: 155px;
+  padding: 14px;
+}
+.clients .card .card-body h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.clients .card .card-body p {
+  color: #666;
+  margin: 0px;
+  font-weight: 500;
+}
+
+/*--------------------------------------------------------------
+#  Contact
+--------------------------------------------------------------*/
+.contact {
+  padding: 50px 0;
+  text-align: center;
+  background: #000;
+}
+.contact h1 {
+  color: #ffffff;
+}
+.contact p {
+  color: #ffffff;
+}
+.contact .address h5 {
+  color: #888;
+  font-weight: 600;
+}
+.contact .address p {
+  color: #ffffff;
+}
+.contact .copyright {
+  border-top: 1px solid #666;
+  padding-top: 20px;
+}
+.contact .copyright p {
+  text-align: center !important;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
